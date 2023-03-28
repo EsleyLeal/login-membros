@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --bodycor:#5f9ea0;
+    --corpadrão:#000000;
+    --corfooter:#ffffff;
+}
+
+body{
+    font-family: 'Roboto'Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100vh;
+    background-color: var(--bodycor);
+}
+.container{
+    display: flex;
+    flex-direction: column; 
+    margin: 5em;
+}
+
+.img_membro img{
+    width: 7em;
+}
+
+.img{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+h1{
+    color: var(--corpadrão);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+label{
+    font-size: 1em;
+    color: var(--corpadrão);
+}
+
+.container_inputs{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+.container_inputs label{
+    margin: 0.4em;
+}
+.container_inputs input{
+    width: 25rem;
+    height:3em;
+    padding: 1em;
+    padding-right: 2rem;
+}
+.check {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 0.3em;  
+    margin-top: 0.3em;
+}
+
+.button_div{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    width: 25rem;
+    height:3em;
+    margin-left: 0.4em;
+    margin-top: 1em;
+    border: none;
+    color: var(--corpadrão);
+    -webkit-box-shadow: 3px 6px 17px 0px rgba(0,0,0,0.71);
+    -moz-box-shadow: 3px 6px 17px 0px rgba(0,0,0,0.71);
+    box-shadow: 3px 6px 17px 0px rgba(0,0,0,0.71);
+    background-color: #1bd158;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1em;
+    margin-top: 1em;
+    margin-left: 0.4em;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+}
+.container_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 2rem;
+    width: 100%;
+    background-color:var(--corpadrão) ;
+    color: var(--corfooter);
+}
+
+@media only screen and (max-width: 600px) {
+    /*@lealsantana*/
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /*@lealsantana*/
+  }
+  
+  @media only screen and (min-width: 1025px) {
+    /*@lealsantana*/
+  }
+  
+   
+  
+  
